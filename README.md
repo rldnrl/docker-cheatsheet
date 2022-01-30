@@ -28,3 +28,9 @@ $ docker run -d <image_name>:<tag>
 ```
 $ docker run -p <host_port>:<container_port> <image_name>:<tag>
 ```
+
+### Run with Environment
+
+```
+$ docker run -e <key>=<value> <image_name>:<tag>
+```
