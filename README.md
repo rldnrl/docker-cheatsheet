@@ -34,3 +34,35 @@ $ docker run -p <host_port>:<container_port> <image_name>:<tag>
 ```
 $ docker run -e <key>=<value> <image_name>:<tag>
 ```
+
+## Docker Process
+
+### Docker Running Process
+
+```
+$ docker ps
+```
+
+### Docker Running and Stopping Process
+
+```
+$ docker ps -a
+```
+
+### Docker stop process
+
+```
+$ docker stop <image_id>
+```
+
+### Docker stop all process
+
+```
+docker stop $(docker ps -qa)
+```
+
+### Docker remove all process
+
+```
+$ docker rm $(docker ps -qa)
+```
