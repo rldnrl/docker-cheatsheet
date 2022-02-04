@@ -37,13 +37,13 @@ $ docker run -e <key>=<value> <image_name>:<tag>
 
 ## Docker Process
 
-### Docker Running Process
+### Docker running Process
 
 ```
 $ docker ps
 ```
 
-### Docker Running and Stopping Process
+### Docker running and stopping all process
 
 ```
 $ docker ps -a
