@@ -66,3 +66,9 @@ docker stop $(docker ps -qa)
 ```
 $ docker rm $(docker ps -qa)
 ```
+
+## Docker build image
+
+```
+$ docker build -t <image_name>:<tag> .
+```
